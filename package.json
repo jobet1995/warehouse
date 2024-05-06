@@ -6,7 +6,9 @@
     "react": "16.14.0"
   },
   "dependencies": {
-    "sqlite3": "5.1.7"
+    "axios": "^1.6.8",
+    "sqlite3": "5.1.7",
+    "supabase": "^1.165.0"
   },
   "scripts": {
     "postinstall": "wix sync-types",
