@@ -11,18 +11,19 @@
   "tasks": {
     "postinstall": {
       "name": "postinstall",
-      "command": "yarn postinstall",
-      "runAtStart": false
+      "command": "yarn postinstall"
     },
     "dev": {
       "name": "dev",
       "command": "yarn dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 37577
+      }
     },
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     }
   }
 }
